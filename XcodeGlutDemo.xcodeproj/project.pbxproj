@@ -1,0 +1,257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77FC5D9E1AF107E70018F9AA /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FC5D9D1AF107E70018F9AA /* OpenGL.framework */; };
+		77FC5DA01AF107F40018F9AA /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FC5D9F1AF107F40018F9AA /* GLUT.framework */; };
+		77FC5DA41AF109360018F9AA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77FC5DA21AF109360018F9AA /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		77FC5D911AF1072B0018F9AA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		77FC5D931AF1072B0018F9AA /* XcodeGlutDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XcodeGlutDemo; sourceTree = BUILT_PRODUCTS_DIR; };
+		77FC5D9D1AF107E70018F9AA /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		77FC5D9F1AF107F40018F9AA /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		77FC5DA21AF109360018F9AA /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		77FC5DA31AF109360018F9AA /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77FC5D901AF1072B0018F9AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FC5DA01AF107F40018F9AA /* GLUT.framework in Frameworks */,
+				77FC5D9E1AF107E70018F9AA /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77FC5D8A1AF1072B0018F9AA = {
+			isa = PBXGroup;
+			children = (
+				77FC5D9F1AF107F40018F9AA /* GLUT.framework */,
+				77FC5D9D1AF107E70018F9AA /* OpenGL.framework */,
+				77FC5D951AF1072B0018F9AA /* XcodeGlutDemo */,
+				77FC5D941AF1072B0018F9AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77FC5D941AF1072B0018F9AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77FC5D931AF1072B0018F9AA /* XcodeGlutDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77FC5D951AF1072B0018F9AA /* XcodeGlutDemo */ = {
+			isa = PBXGroup;
+			children = (
+				77FC5DA21AF109360018F9AA /* main.cpp */,
+				77FC5DA31AF109360018F9AA /* Header.h */,
+			);
+			path = XcodeGlutDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77FC5D921AF1072B0018F9AA /* XcodeGlutDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77FC5D9A1AF1072B0018F9AA /* Build configuration list for PBXNativeTarget "XcodeGlutDemo" */;
+			buildPhases = (
+				77FC5D8F1AF1072B0018F9AA /* Sources */,
+				77FC5D901AF1072B0018F9AA /* Frameworks */,
+				77FC5D911AF1072B0018F9AA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XcodeGlutDemo;
+			productName = XcodeGlutDemo;
+			productReference = 77FC5D931AF1072B0018F9AA /* XcodeGlutDemo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77FC5D8B1AF1072B0018F9AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "游义男";
+				TargetAttributes = {
+					77FC5D921AF1072B0018F9AA = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 77FC5D8E1AF1072B0018F9AA /* Build configuration list for PBXProject "XcodeGlutDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 77FC5D8A1AF1072B0018F9AA;
+			productRefGroup = 77FC5D941AF1072B0018F9AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77FC5D921AF1072B0018F9AA /* XcodeGlutDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77FC5D8F1AF1072B0018F9AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FC5DA41AF109360018F9AA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		77FC5D981AF1072B0018F9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		77FC5D991AF1072B0018F9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		77FC5D9B1AF1072B0018F9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XcodeGlutDemo/XcodeGlutDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77FC5D9C1AF1072B0018F9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XcodeGlutDemo/XcodeGlutDemo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77FC5D8E1AF1072B0018F9AA /* Build configuration list for PBXProject "XcodeGlutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77FC5D981AF1072B0018F9AA /* Debug */,
+				77FC5D991AF1072B0018F9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77FC5D9A1AF1072B0018F9AA /* Build configuration list for PBXNativeTarget "XcodeGlutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77FC5D9B1AF1072B0018F9AA /* Debug */,
+				77FC5D9C1AF1072B0018F9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77FC5D8B1AF1072B0018F9AA /* Project object */;
+}
